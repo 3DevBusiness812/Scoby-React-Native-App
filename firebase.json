@@ -1,0 +1,16 @@
+{
+  "react-native": {
+    "messaging_android_notification_channel_id": "high-priority"
+  },
+  "hosting": {
+    "public": "public",
+    "appAssociation": "AUTO",
+    "rewrites": [
+      {
+        "source": "/links/**",
+        "dynamicLinks": true
+      }
+    ],
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"]
+  }
+}

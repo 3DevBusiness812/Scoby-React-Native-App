@@ -1,0 +1,67 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.scoby">
+
+  <uses-permission android:name="android.permission.CAMERA" />
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+  <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+  <uses-permission android:name="android.permission.RECORD_AUDIO" />
+  <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+  <uses-permission android:name="android.permission.WAKE_LOCK" />
+  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+  <uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+  <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+  <uses-permission android:name="android.permission.MICROPHONE" /><!-- 
+  <uses-permission android:name="android.permission.ACCEPT_HANDOVER" />
+  <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION"/> -->
+
+  <uses-feature android:name="android.hardware.microphone" android:required="true" />
+  <uses-feature android:name="android.hardware.camera" android:required="true"/>
+  <uses-feature android:name="android.hardware.camera.autofocus" android:required="true"/>
+  <uses-feature android:name="android.hardware.camera.front" android:required="false" />
+
+  <application android:name="com.scoby.MainApplication"
+    android:label="@string/app_name"
+    android:icon="@mipmap/ic_launcher"
+    android:roundIcon="@mipmap/ic_launcher_round"
+    android:allowBackup="false"
+    android:theme="@style/AppTheme"
+    android:backupInForeground="false"
+    android:requestLegacyExternalStorage="true"
+    android:usesCleartextTraffic="true">
+
+    <activity android:name="com.scoby.MainActivity"
+      android:label="@string/app_name"
+      android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+      android:launchMode="singleTask"
+      android:screenOrientation="portrait"
+      android:windowSoftInputMode="adjustResize">
+
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+
+      <intent-filter android:autoVerify="true">
+        <action android:name="android.intent.action.VIEW" />
+        <category android:name="android.intent.category.DEFAULT" />
+        <category android:name="android.intent.category.BROWSABLE" />
+        <data android:scheme="http" android:host="www.scoby.com" android:pathPrefix="/profile" />
+      </intent-filter>
+
+      <intent-filter>
+        <action android:name="android.intent.action.VIEW"/>
+        <category android:name="android.intent.category.DEFAULT"/>
+        <category android:name="android.intent.category.BROWSABLE"/>
+        <data android:host="app.scoby.dev" android:scheme="http"/>
+        <data android:host="app.scoby.dev" android:scheme="https"/>
+      </intent-filter>
+
+    </activity>
+
+    <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+    <meta-data android:name="com.google.android.geo.API_KEY" android:value="AIzaSyBsqt214Eri5KuofVuIzUHQF6WTc1dMKJs"/>
+    <meta-data android:name="com.dieam.reactnativepushnotification.channel_create_default" android:value="true"/>
+
+  </application>
+
+</manifest>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 0 18 18"
+   version="1.1"
+   id="svg17"
+   sodipodi:docname="Solana_SVG.svg"
+   width="18"
+   height="18"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)">
+  <metadata
+     id="metadata21">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1015"
+     id="namedview19"
+     showgrid="false"
+     inkscape:zoom="4.1629918"
+     inkscape:cx="-23.300551"
+     inkscape:cy="28.344999"
+     inkscape:window-x="1366"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg17" />
+  <defs
+     id="defs4">
+    <style
+       id="style2">.cls-1{fill:none;stroke:#fff;stroke-miterlimit:10;stroke-width:1.5px;}.cls-2{fill:#fff;}</style>
+  </defs>
+  <g
+     id="Capa_2"
+     data-name="Capa 2"
+     transform="matrix(0.32846716,0,0,0.32846716,-0.31204405,-0.31204417)">
+    <circle
+       class="cls-1"
+       cx="28.35"
+       cy="28.35"
+       r="26.65"
+       id="circle6"
+       style="fill:none;stroke:#ffffff;stroke-width:1.5px;stroke-miterlimit:10" />
+    <polygon
+       class="cls-2"
+       points="36.82,21.52 16.84,21.52 19.96,17.49 39.98,17.49 "
+       id="polygon8"
+       style="fill:#ffffff" />
+    <polygon
+       class="cls-2"
+       points="36.85,39.01 16.87,39.01 20.06,35.18 39.85,35.18 "
+       id="polygon10"
+       style="fill:#ffffff" />
+    <polygon
+       class="cls-2"
+       points="19.84,30.35 39.82,30.35 36.68,26.3 16.67,26.3 "
+       id="polygon12"
+       style="fill:#ffffff" />
+    <path
+       class="cls-2"
+       d="M 28.35,5 A 23.4,23.4 0 1 0 51.74,28.4 23.4,23.4 0 0 0 28.35,5 Z M 13.84,22 18.3,17 a 3.33,3.33 0 0 1 2.46,-1 h 21.12 c 1,0 1.2,1.09 0.59,1.75 l -3,3.38 a 4.76,4.76 0 0 1 -3.8,1.86 H 14.39 A 0.63,0.63 0 0 1 13.84,21.9 Z m 28.63,13.18 -3,3.44 c -1.1,1.17 -1.81,1.86 -3.53,1.86 H 14.38 a 0.63,0.63 0 0 1 -0.55,-1 l 4.46,-4.91 a 3.34,3.34 0 0 1 2.46,-1 h 21.13 c 0.95,-0.08 1.2,0.95 0.59,1.61 z M 42.31,31.7 H 21 a 4.72,4.72 0 0 1 -3.79,-1.86 l -3,-3.5 a 0.91,0.91 0 0 1 0.64,-1.62 h 21.08 a 3.33,3.33 0 0 1 2.47,1.05 l 4.45,4.9 a 0.62,0.62 0 0 1 -0.54,1.03 z"
+       id="path14"
+       inkscape:connector-curvature="0"
+       style="fill:#ffffff" />
+  </g>
+</svg>

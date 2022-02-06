@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "227307205613",
+    "project_id": "scoby-social",
+    "storage_bucket": "scoby-social.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:227307205613:android:c83bfe85558f71eaf1ede4",
+        "android_client_info": {
+          "package_name": "com.scoby"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "227307205613-rbn27pg5tpbs1dm2qekedaneea5udr50.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzEveJATVCJ1alKz-yEWl7atd7AQwRJlo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "227307205613-rbn27pg5tpbs1dm2qekedaneea5udr50.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "227307205613-9a42mbn9h5av085il1bmghme4pdhh97j.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.softermii.scoby",
+                "app_store_id": "1526470796"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

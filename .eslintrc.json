@@ -1,0 +1,72 @@
+{
+  "parser": "babel-eslint",
+  "env": {
+    "es6": true,
+    "es2017": true,
+    "node": true
+  },
+  "extends": ["airbnb", "airbnb/hooks", "prettier"],
+  "plugins": ["react", "prettier", "react-hooks"],
+  "rules": {
+    "prettier/prettier": ["error"],
+    "arrow-parens": 0,
+    "arrow-body-style": ["warn", "as-needed", {"requireReturnForObjectLiteral": false}],
+    "consistent-return": 0,
+    "object-literal-sort-keys": 0,
+    "ordered-imports": 0,
+    "member-access": 0,
+    "no-implicit-dependencies": 0,
+    "no-submodule-imports": 0,
+    "comma-dangle": 0,
+    "class-methods-use-this": 0,
+    "import/prefer-default-export": 0,
+    "quotes": 0,
+    "max-len": ["error", 120],
+    "use-default-type-parameter": 0,
+    "react/prop-types": 0,
+    "import/no-unresolved": 0,
+    "import/no-extraneous-dependencies": 0,
+    "indent": ["error", 2, {"SwitchCase": 1}],
+    "react/jsx-indent": [2, 2],
+    "react/jsx-closing-bracket-location": 0,
+    "react/jsx-curly-newline": 0,
+    "react/jsx-indent-props": [2, 2],
+    "react/state-in-constructor": 0,
+    "react/jsx-filename-extension": 0,
+    "react/jsx-wrap-multilines": 0,
+    "react/destructuring-assignment": 0,
+    "react/sort-comp": 0,
+    "react/static-property-placement": 0,
+    "react/jsx-one-expression-per-line": 0,
+    "react/no-unescaped-entities": 0,
+    "react/jsx-props-no-spreading": 0,
+    "react/no-did-update-set-state": 0,
+    "react-hooks/rules-of-hooks": 1,
+    "react-hooks/exhaustive-deps": 1,
+    "no-unused-expressions": [2, {"allowShortCircuit": true, "allowTernary": true}],
+    "no-param-reassign": 0,
+    "no-console": "error",
+    "sort-imports": [
+      "error",
+      {
+        "ignoreDeclarationSort": true,
+        "ignoreMemberSort": true,
+        "memberSyntaxSortOrder": ["all", "single", "multiple", "none"]
+      }
+    ]
+  },
+  "globals": {
+    "fetch": false
+  },
+  "overrides": [
+    {
+      "files": ["*.spec.js"],
+      "rules": {
+        "no-unused-expressions": "off",
+        "import/no-unresolved": "off",
+        "no-undef": "off",
+        "no-console": "off"
+      }
+    }
+  ]
+}

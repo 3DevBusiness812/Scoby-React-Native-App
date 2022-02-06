@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "334037718250",
+    "project_id": "scoby-stage",
+    "storage_bucket": "scoby-stage.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:334037718250:android:1834315583adecc3c33393",
+        "android_client_info": {
+          "package_name": "com.scoby.stage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "334037718250-4gkkv91fps32fdvqb636ddfjd43p738o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRSl6P8X6hNJiBQpkJskoKFiuXI7XR7zY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "334037718250-4gkkv91fps32fdvqb636ddfjd43p738o.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "334037718250-v3sm5sv7kane0aok8gitn5ds01q08f8q.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.softermii.scoby.stage"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

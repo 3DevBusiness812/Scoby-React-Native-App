@@ -1,0 +1,10 @@
+import React from 'react'
+import { Svg, Path } from 'react-native-svg'
+
+export default function ShareIco () {
+  return (
+    <Svg width="20" height="22" viewBox="0 0 10 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <Path d="M7.03349 0H1.00478C0.449641 0 0 0.449641 0 1.00478V8.03828H1.00478V1.00478H7.03349V0ZM8.54067 2.00957H3.01435C2.45921 2.00957 2.00957 2.45921 2.00957 3.01435V10.0478C2.00957 10.603 2.45921 11.0526 3.01435 11.0526H8.54067C9.09581 11.0526 9.54545 10.603 9.54545 10.0478V3.01435C9.54545 2.45921 9.09581 2.00957 8.54067 2.00957ZM8.54067 10.0478H3.01435V3.01435H8.54067V10.0478Z" fill="white"/>
+    </Svg>
+  )
+}

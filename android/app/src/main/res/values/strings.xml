@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">scoby</string>
+    <string name="asset_statements" translatable="false">[{ \"include\": \"https://www.scoby.social/.well-known/assetlinks.json\" }]</string>
+</resources>
